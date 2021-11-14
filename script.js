@@ -1,4 +1,4 @@
-// function total() {
+// function tambah() {
 //     let veggies = document.getElementById('veggies').value;
 //     let kg = document.getElementById('kg').value;
 //     let disc = document.getElementById('discount').value;
