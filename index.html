@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program Kasir Sederhana</title>
+    <link rel="stylesheet" href="stylesheet.css">
+
+</head>
+<body>
+
+<div class="container">
+    <h1>ORGANIC FARM PRODUCT LIST</h1>
+
+    <div class="product-container">
+        <div class="card">
+            <div class="title">Wortel</div>
+            <div class="image"><img src="./wortel.jpg"></div>
+            <div class="text">Wortel organik segar asli dari petani di Singosari, Malang</div>
+            <div class="text2">Rp12.000.000 / Kg</div>
+        </div>
+        <div class="card">
+            <div class="title">Bayam</div>
+            <div class="image"><img src="./bayam.jpg"></div>
+            <div class="text">Bayam organik langsung dari pertanian hidroponik kami</div>
+            <div class="text2">Rp10.000.000 / Kg</div>
+        </div>
+        <div class="card">
+            <div class="title">Tomat</div>
+            <div class="image"><img src="./tomat.jpg"></div>
+            <div class="text">Tomat organik segar langsung dari petani lokal Kidal, Malang</div>
+            <div class="text2">Rp12.500.000 / Kg</div>
+        </div>
+        <div class="card">
+            <div class="title">Jagung</div>
+            <div class="image"><img src="./jagung.jpg"></div>
+            <div class="text">Jagung organik dari mitra kami pertanian kami, BioFarm.id</div>
+            <div class="text2">Rp13.000.000 / Kg</div>
+        </div>
+        <div class="card">
+            <div class="title">Kentang</div>
+            <div class="image"><img src="./kentang.jpg"></div>
+            <div class="text">Kentang organik dari petani lokal dari Ngroto, Malang</div>
+            <div class="text2">Rp14.500.000 / Kg</div>
+        </div>
+        <div class="card">
+            <div class="title">Cabai</div>
+            <div class="image"><img src="./cabai.jpg"></div>
+            <div class="text">Cabai rawit organik segar langsung dari pertanian kami</div>
+            <div class="text2">Rp30.000.000 / Kg</div>
+        </div>
+    </div> <!--menu-->
+
+    <div class="cashier">
+        <label for="veggies-menu"> Sayur : </label>
+        <select name="veggies" id="veggies">
+            <option value="Wortel">Wortel</option>
+            <option value="Bayam">Bayam</option>
+            <option value="Tomat">Tomat</option>
+            <option value="Jagung">Jagung</option>
+            <option value="Kentang">Kentang</option>
+            <option value="Cabai">Cabai</option>
+        </select>
+        <input type="number" placeholder="Jumlah (kg)" id="kg">
+        <input type="number" placeholder="Masukkan Diskon (0% - 100%)" id="discount">
+        <!-- <button onclick="total()">Tambah</button> -->
+        <button onclick="hitung()">Total</button>
+    </div> <!--cashier-->
+
+    <div class="bill">
+        <h3>TOTAL TAGIHAN</h3>
+        <p id="total">--</p>
+    </div>
+</div> <!--container-->
+
+<script src="script.js"></script>
+
+</body>
+</html>

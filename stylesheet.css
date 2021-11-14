@@ -1,0 +1,80 @@
+.container {
+    width: 600px;
+    padding: 0px;
+    margin: 0 auto;
+}
+
+.container h1 {
+    text-align: center;
+    color: white;
+    background-color: yellowgreen;
+    border-radius: 10px;
+    box-shadow: 0px 10px 5px darkgray;
+    font-family: 'Poppins';
+}
+
+/* List Barang */
+
+.container .card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1em;
+    color: black;
+    box-shadow: 0px 10px 5px darkgray;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+.card .title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.card .text {
+    text-align: left;
+    margin-left: 5px;
+    margin-bottom: 0.5em;
+    font-size: 12px 
+}
+
+.card .text2 {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px 
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+}
+
+.menu, .cashier {
+    padding-bottom: 20px;
+    border-bottom: 2px solid grey;
+}
+
+.cashier {
+    padding-top: 10px;
+}
+
+input {
+    display: block;
+    margin-top: 10px;
+    width: 200px;
+}
+
+.cashier button {
+    margin-top: 10px;
+    padding: 4px 7px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: rgb(84, 214, 84);
+}
