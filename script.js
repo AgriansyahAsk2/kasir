@@ -46,7 +46,7 @@ function hitung() {
 function total(veggies, kg, disc) {
     let price = getPrice(veggies);
     document.getElementById('total').innerHTML = (`Jenis Sayur : ${veggies} <br>`);
-    document.getElementById('total').innerHTML += (`Harga buah per kilogram : ${price} <br>`);
+    document.getElementById('total').innerHTML += ("Harga sayur per kilogram : Rp" + ${price} "<br>");
     document.getElementById('total').innerHTML += (`Banyak (berat) : ${kg} kg <br>`);
     document.getElementById('total').innerHTML += (`Diskon : ${disc}% <br>`);
     document.getElementById('total').innerHTML += ("Potongan harga : Rp" + (disc/100) * (price*kg) + "<br>");
